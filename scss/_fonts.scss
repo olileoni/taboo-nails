@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'Century Gothic';
+    src: local('CenturyGothic'),
+    local('CenturyGothic'),
+    url('../assets/fonts/Century Gothic/CenturyGothic.woff') format('woff'),
+    url('../assets/fonts/Century Gothic/CenturyGothic.eot') format('eot'),
+    url('../assets/fonts/Century Gothic/CenturyGothic.ttf') format('ttf');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+    }
+
+@font-face {
+    font-family: 'Open Sans';
+    src: local('OpenSans-Regular'),
+    local('OpenSans-Regular'),
+    url('../assets/fonts/Open Sans/OpenSans-Regular.woff') format('woff'),
+    url('../assets/fonts/Open Sans/OpenSans-Regular.eot') format('eot'),
+    url('../assets/fonts/Open Sans/OpenSans-Regular.ttf') format('ttf');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+    }
+
+@font-face {
+    font-family: 'Open Sans';
+    src: local('OpenSans-SemiBold'),
+    local('OpenSans-SemiBold'),
+    url('../assets/fonts/Open Sans/OpenSans-SemiBold.woff') format('woff'),
+    url('../assets/fonts/Open Sans/OpenSans-SemiBold.eot') format('eot'),
+    url('../assets/fonts/Open Sans/OpenSans-SemiBold.ttf') format('ttf');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+    }

@@ -1,0 +1,66 @@
+.about {
+    position: relative; 
+    &__container {
+        display: flex;
+        gap: 32px;
+    }
+     &__image {
+        max-width: 623px;
+    }
+    &__content {
+        margin-top: calc(52px + (128 - 52) * ((100vw - 320px) / (1920 - 320)));
+    }
+    &__title {
+        font-family: $title-font;
+        font-size: calc(20px + 20 * ((100vw - 320px) / (1920 - 320)));
+        font-weight: 400;
+        margin-bottom: 22px;
+        span {
+            font-size: calc(16px + 4 * ((100vw - 320px) / (1920 - 320))); 
+            font-weight: 400;
+        }
+    }
+    &__list {
+        list-style-type: disc;
+        padding-left: 20px;
+    }
+    &__item {
+        margin-bottom: 20px;
+        font-family: $title-font;
+        font-size: calc(16px + 4 * ((100vw - 320px) / (1920 - 320)));
+    }
+    &__wrapper {
+        background: url('../assets/img/bg-gray.png');
+    }
+    &__picture {
+        padding-top: calc(40px + (140 - 40) * ((100vw - 320px) / (1920 - 320)));
+        padding-bottom: calc(45px + (240 - 45) * ((100vw - 320px) / (1920 - 320)));
+    }
+}
+
+@media (max-width: 992px) {
+    .about {
+        &__image {
+            display: none;
+        }
+        &__content {
+           padding-right: calc(20px + (200 - 20) * ((100vw - 320px) / (1920 - 320)));
+           padding-left: calc(20px + (200 - 20) * ((100vw - 320px) / (1920 - 320)));
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .about {
+        &__title {
+            margin-left: 48px;
+        }
+        &__wrapper {
+            background: none;
+        }
+    }
+    
+    .about .container {
+        padding: 0;
+    }
+}
