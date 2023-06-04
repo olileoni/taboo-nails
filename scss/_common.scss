@@ -38,6 +38,10 @@ body {
   scroll-behavior: smooth;
 }
 
+:target {
+  scroll-margin-top: 100px;
+}
+
 .body-wrapper {
   position: relative;
   overflow: hidden;
@@ -49,15 +53,14 @@ img {
   vertical-align: bottom;
 }
 
+.main {
+  margin-top: 100px;
+}
+
 .container {
   max-width: 1330px;
   margin: 0 auto;
   padding: 0 15px;
-}
-
-
-.main {
-  margin-top: -100px;
 }
 
 .title {

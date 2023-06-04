@@ -1,6 +1,5 @@
 .banner {
-    padding-top: calc(150px + (200 - 150) * ((100vw - 320px) / (1920 - 320)));
-    margin-top: 20px;
+    // padding-top: 100px;
     &__container {
        position: relative;
     }
