@@ -55,6 +55,11 @@ img {
   padding: 0 15px;
 }
 
+
+.main {
+  margin-top: -100px;
+}
+
 .title {
   font-size: calc(40px + 30 * ((100vw - 320px) / (1920 - 320)));
   font-family: $title-font;

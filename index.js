@@ -16,6 +16,13 @@ menu.addEventListener('click', e => {
         }
     })
 
+  menu.querySelectorAll('.header__link') .forEach(link => {
+    link.addEventListener('click', () => {
+        header.classList.remove('open')
+    })
+  })
+
+
 
  // map
  
