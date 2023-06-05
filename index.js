@@ -26,19 +26,25 @@ menu.addEventListener('click', e => {
 
  // map
  
- let center = [7.767106341516096,98.31170571163928];
+ let center = [7.823194313194592,98.3327561835777];
 
     function init() {
         let map = new ymaps.Map('footer__map', {
             center: center,
             zoom: 16,
         });
+
+        let placemark = new ymaps.Placemark(center, {}, {
+
+        })
     
     
         map.controls.remove('searchControl');
         map.controls.remove('zoomControl');
         map.controls.remove('rulerControl');
         map.controls.remove('trafficControl');
+
+        map.geoObjects.add(placemark);
     }
     
     ymaps.ready(init);
