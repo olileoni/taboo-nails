@@ -25,6 +25,11 @@
             &_link {
                 margin-right: 20px;
             }
+            &_icon {
+                display: block;
+                width: 41px;
+                height: 41px;
+            }
     }
     &__image {
         position: absolute;
@@ -50,12 +55,6 @@
         display: block;
         margin-bottom: calc(18px + (25 - 18) * ((100vw - 320px) / (1920 - 320)));
     }
-}
-
-.footer__socials_icon {
-    display: block;
-    margin-top: 5px;
-    margin-left: -5px;
 }
 
 [class*='copyrights-pane'] {
