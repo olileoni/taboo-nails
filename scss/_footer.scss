@@ -18,12 +18,17 @@
         }
     }
     &__socials {
-            display: block;
+            display: flex;
             align-items: center;
             margin-top: 56px;
             margin-bottom: 30px; 
             &_link {
                 margin-right: 20px;
+            }
+            &_icon {
+                display: block;
+                margin-top: 5px;
+                margin-left: -5px;
             }
     }
     &__image {
