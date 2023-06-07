@@ -28,17 +28,29 @@
     }
 }
 
-.lang__swith {
-    display: inline-flex;
+.lang-swith {
+    display: flex;
     justify-content: center;
     align-items: center;
     margin-left: calc(20px + (69 - 20) * ((100vw - 320px) / (1920 - 320)));
     cursor: pointer;
+    &::after {
+        content: url('../assets/img/arrow-lang.png');
+        padding-left: 3px;
+    }
     &_text {
         margin-left: 6px;
         font-family: $title-font;
         font-size: 14px;
     }
+    &_content {
+        display: none;
+        padding: 15px;
+    }
+}
+
+.open.lang-swith_content {
+    display: block;
 }
 
 @media (max-width: 640px) {
