@@ -3,10 +3,10 @@
        position: relative;
     }
     &__logo {
+        height: 505px;
         position: relative;
         z-index: 10;
         padding-top: 30px;
-        padding-bottom: 68px;
         &_bg {
             background-color: $bg-color;
         }
@@ -24,9 +24,10 @@
 @media (max-width: 945px) {
     .banner {
         &__logo {
-            &_bg {
-                background-color: transparent;
-            }
+            display: none;
+        }
+        &__image {
+            position: static;
         }
     }
 }
@@ -41,9 +42,6 @@
             &_bg {
                 background-color: $bg-color;
             }
-        }
-        &__image {
-            position: static;
         }
     }
 }

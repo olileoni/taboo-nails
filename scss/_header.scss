@@ -55,7 +55,10 @@
             flex-direction: column;
         }
         &__logo {
-            margin-top: -35px;
+            img {
+                width: 106px;
+                height: 70px;
+            }
         }
         &__nav {
             position: absolute;
