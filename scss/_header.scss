@@ -13,8 +13,7 @@
         align-items: center;
     }
     &__logo {
-        width: 250px;
-        height: 70px;
+        width: 80px;
     }
     &__nav {
         margin-left: auto;
@@ -119,10 +118,10 @@
     }
     }
 
-    // @media (max-width: 360px) {
-    //     .header {
-    //         &__logo img {
-    //             width: 500px !important;
-    //         }
-    //     }
-    // }
+    @media (max-width: 520px) {
+        .header {
+            &__logo {
+                width: 110px;
+            }
+        }
+    }
