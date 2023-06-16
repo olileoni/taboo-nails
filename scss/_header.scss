@@ -51,11 +51,13 @@
 
 @media (max-width: 820px) {
     .header {
-        padding-top: 15px;
-        padding-bottom: 15px;
+        padding: 0;
         &__mob {
             display: flex;
             flex-direction: column;
+        }
+        &__logo {
+            width: 125px;
         }
         &__nav {
             position: absolute;
@@ -83,7 +85,7 @@
             cursor: pointer;
             z-index: 20;
             margin-left: auto;
-            padding-top: 20px;
+            padding-top: 40px;
             margin-bottom: 20px;
             &_line {
                 position: absolute;
@@ -118,10 +120,11 @@
     }
     }
 
-    @media (max-width: 520px) {
+    @media (max-width: 420px) {
         .header {
-            &__logo {
-                width: 110px;
+            &__burger {
+                padding-top: 20px;
+                margin-bottom: 10px;
             }
         }
     }
